@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CV — Amanda Masis</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="no-subnav">
+  <!-- TOP NAV -->
+  <nav id="topnav">
+    <a class="nav-brand" href="about.html">Amanda Masis</a>
+    <ul class="nav-items">
+      <li><a href="about.html" data-page="about">About</a></li>
+      <li><a href="reflection.html" data-page="reflection">Reflection</a></li>
+      <li>
+        <a href="goal1.html" data-page="goal1">Goal 1</a>
+        <ul class="dropdown">
+          <li><a href="goal1.html#outcome-1a">Outcome 1a</a></li>
+          <li><a href="goal1.html#outcome-1b">Outcome 1b</a></li>
+          <li><a href="goal1.html#outcome-1c">Outcome 1c</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="goal2.html" data-page="goal2">Goal 2</a>
+        <ul class="dropdown">
+          <li><a href="goal2.html#outcome-2a">Outcome 2a</a></li>
+          <li><a href="goal2.html#outcome-2b">Outcome 2b</a></li>
+          <li><a href="goal2.html#outcome-2c">Outcome 2c</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="goal3.html" data-page="goal3">Goal 3</a>
+        <ul class="dropdown">
+          <li><a href="goal3.html#outcome-3a">Outcome 3a</a></li>
+          <li><a href="goal3.html#outcome-3b">Outcome 3b</a></li>
+          <li><a href="goal3.html#outcome-3c">Outcome 3c</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="goal4.html" data-page="goal4">Goal 4</a>
+        <ul class="dropdown">
+          <li><a href="goal4.html#outcome-4a">Outcome 4a</a></li>
+          <li><a href="goal4.html#outcome-4b">Outcome 4b</a></li>
+          <li><a href="goal4.html#outcome-4c">Outcome 4c</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="goal5.html" data-page="goal5">Goal 5</a>
+        <ul class="dropdown">
+          <li><a href="goal5.html#outcome-5a">Outcome 5a</a></li>
+          <li><a href="goal5.html#outcome-5b">Outcome 5b</a></li>
+          <li><a href="goal5.html#outcome-5c">Outcome 5c</a></li>
+        </ul>
+      </li>
+      <li><a href="cv.html" data-page="cv">CV</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div id="mobile-menu">
+    <a href="about.html">About</a>
+    <a href="reflection.html">Reflection</a>
+    <a href="goal1.html">Goal 1</a>
+    <a class="mob-sub" href="goal1.html#outcome-1a">Outcome 1a</a>
+    <a class="mob-sub" href="goal1.html#outcome-1b">Outcome 1b</a>
+    <a class="mob-sub" href="goal1.html#outcome-1c">Outcome 1c</a>
+    <a href="goal2.html">Goal 2</a>
+    <a class="mob-sub" href="goal2.html#outcome-2a">Outcome 2a</a>
+    <a class="mob-sub" href="goal2.html#outcome-2b">Outcome 2b</a>
+    <a class="mob-sub" href="goal2.html#outcome-2c">Outcome 2c</a>
+    <a href="goal3.html">Goal 3</a>
+    <a class="mob-sub" href="goal3.html#outcome-3a">Outcome 3a</a>
+    <a class="mob-sub" href="goal3.html#outcome-3b">Outcome 3b</a>
+    <a class="mob-sub" href="goal3.html#outcome-3c">Outcome 3c</a>
+    <a href="goal4.html">Goal 4</a>
+    <a class="mob-sub" href="goal4.html#outcome-4a">Outcome 4a</a>
+    <a class="mob-sub" href="goal4.html#outcome-4b">Outcome 4b</a>
+    <a class="mob-sub" href="goal4.html#outcome-4c">Outcome 4c</a>
+    <a href="goal5.html">Goal 5</a>
+    <a class="mob-sub" href="goal5.html#outcome-5a">Outcome 5a</a>
+    <a class="mob-sub" href="goal5.html#outcome-5b">Outcome 5b</a>
+    <a class="mob-sub" href="goal5.html#outcome-5c">Outcome 5c</a>
+    <a href="cv.html">CV</a>
+  </div>
+<div class="page-body cv-page">
+    <div class="eyebrow">Section 5 &nbsp;·&nbsp; <span class="nav-num">08</span></div>
+    <h1>CV</h1>
+    <div class="title-rule"></div>
+
+    <div class="cv-header">
+      <p class="cv-contact">(310) 866-7468 &nbsp;·&nbsp; <a href="/cdn-cgi/l/email-protection#12737f737c7673777f73617b6152757f737b7e3c717d7f"><span class="__cf_email__" data-cfemail="3a5b575b545e5b5f575b4953497a5d575b535614595557">[email&#160;protected]</span></a> &nbsp;·&nbsp; Chicago, IL</p>
+      <hr class="cv-contact-rule" />
+    </div>
+
+    <div class="cv-section">
+      <div class="eyebrow">Experience</div>
+
+      <div class="cv-entry">
+        <div class="cv-entry-header">
+          <span class="cv-org">Newberry Library</span>
+          <span class="cv-location">Chicago, IL</span>
+        </div>
+        <div class="cv-entry-meta">
+          <span class="cv-role">Assistant Digital Asset Manager</span>
+          <span class="cv-date">10/2025 – Present</span>
+        </div>
+        <ul class="cv-bullets">
+          <li>Prepare, edit, and ingest files into the Newberry's asset management system Orange Logic Cortex, with projects containing up to 250,000 digital files.</li>
+          <li>Use APIs and command line Python scripts to extract and prepare information (from MARC records, legacy Dublin Core records, finding aids, inventories, crowdsourcing projects, and OCR processing) and create Dublin Core metadata.</li>
+          <li>Work with colleagues in Collection Services and Modern Manuscripts and Archives to create links to DAMS content from finding aids and Newberry catalog.</li>
+        </ul>
+      </div>
+
+      <div class="cv-entry">
+        <div class="cv-entry-header">
+          <span class="cv-org">Seminary Co-op Bookstores</span>
+          <span class="cv-location">Chicago, IL</span>
+        </div>
+        <div class="cv-entry-meta">
+          <span class="cv-role">Event Runner</span>
+          <span class="cv-date">09/2024 – Present</span>
+        </div>
+        <ul class="cv-bullets">
+          <li>Coordinate and execute offsite author events, managing logistics from planning to completion.</li>
+          <li>Engage with authors and community partners to ensure seamless collaboration and successful event execution.</li>
+          <li>Oversee day-of event operations, including venue setup, book transport, and audience management.</li>
+        </ul>
+      </div>
+
+      <div class="cv-entry">
+        <div class="cv-entry-header">
+          <span class="cv-org">Newberry Library</span>
+          <span class="cv-location">Chicago, IL</span>
+        </div>
+        <div class="cv-entry-meta">
+          <span class="cv-role">Library Assistant</span>
+          <span class="cv-date">05/2025 – 10/2025</span>
+        </div>
+        <ul class="cv-bullets">
+          <li>Assisted readers in the reading room by retrieving and reshelving materials from closed stacks, ensuring accurate tracking using Aeon circulation software.</li>
+          <li>Monitored reading rooms to support proper handling of materials and uphold library conduct policies, preserving the integrity of rare books, manuscripts, and archival collections.</li>
+          <li>Provided front-line public service at the circulation desk: oriented readers, responded to general and research-related inquiries, and supported copy and digital image requests.</li>
+        </ul>
+      </div>
+
+      <div class="cv-entry">
+        <div class="cv-entry-header">
+          <span class="cv-org">Chicago Public Library</span>
+          <span class="cv-location">Chicago, IL</span>
+        </div>
+        <div class="cv-entry-meta">
+          <span class="cv-role">CyberNavigator</span>
+          <span class="cv-date">03/2024 – 06/2025</span>
+        </div>
+        <ul class="cv-bullets">
+          <li>Guided patrons in developing digital skills, including navigating the internet, using email, and working with applications like Microsoft Office.</li>
+          <li>Connected patrons with essential community resources and social services by helping them access information and complete online applications.</li>
+          <li>Delivered personalized instruction on computer usage, ensuring equitable access to technology and reducing digital literacy barriers.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="cv-section">
+      <div class="eyebrow">Education</div>
+
+      <div class="cv-entry">
+        <div class="cv-entry-header">
+          <span class="cv-org">Dominican University</span>
+          <span class="cv-location">River Forest, IL</span>
+        </div>
+        <div class="cv-entry-meta">
+          <span class="cv-role">Master of Library and Information Science</span>
+          <span class="cv-date">05/2026</span>
+        </div>
+        <p class="cv-note">Currently attending.</p>
+      </div>
+
+      <div class="cv-entry">
+        <div class="cv-entry-header">
+          <span class="cv-org">California Polytechnic University</span>
+          <span class="cv-location">Pomona, CA</span>
+        </div>
+        <div class="cv-entry-meta">
+          <span class="cv-role">Bachelor of Urban and Regional Planning</span>
+          <span class="cv-date">06/2023</span>
+        </div>
+        <p class="cv-note">California Center for Ethics and Policy Fellow 2023.</p>
+      </div>
+
+      <div class="cv-entry">
+        <div class="cv-entry-header">
+          <span class="cv-org">Santa Monica College</span>
+          <span class="cv-location">Santa Monica, CA</span>
+        </div>
+        <div class="cv-entry-meta">
+          <span class="cv-role">Associate of Arts, Art History</span>
+          <span class="cv-date">2020</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="cv-section cv-bottom-section">
+      <div class="cv-skills-languages">
+        <div class="cv-skills-col">
+          <div class="eyebrow">Skills</div>
+          <p class="cv-skills">Cataloging · Cross-Functional Team Collaboration · Microsoft Office · Adobe Suite
+HTML5 · CSS3 · JavaScript · OMEKA · AEON · MARC · XML · Dublin Core · Excel
+Python · Project Management · Orange Logic Cortex · ArchivesSpace</p>
+        </div>
+        <div class="cv-languages-col">
+          <div class="eyebrow">Languages</div>
+          <p class="cv-skills">Spanish<br><span class="cv-lang-level">– Heritage Speaker</span></p>
+          <p class="cv-skills" style="margin-top:0.75rem;">Swedish<br><span class="cv-lang-level">– Heritage Speaker</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="cv-download-wrap">
+      <a class="pdf-download" href="Amanda_Masis_CV.pdf" download>↓ Download CV</a>
+    </div>
+
+  </div>
+  <script>
+    document.getElementById('hamburger').addEventListener('click', () =>
+      document.getElementById('mobile-menu').classList.toggle('open'));
+    const here = location.pathname.split('/').pop() || 'about.html';
+    document.querySelectorAll('.nav-items > li > a[data-page]').forEach(a => {
+      if (a.getAttribute('href') === here) a.classList.add('active');
+    });
+    if (location.hash) {
+      setTimeout(() => {
+        const el = document.querySelector(location.hash);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 80);
+    }
+  </script>
+</body>
+</html>
