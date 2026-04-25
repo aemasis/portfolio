@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Goal 5 — Communicate & Advocate — Amanda Masis</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="has-subnav">
+  <!-- TOP NAV -->
+  <nav id="topnav">
+    <a class="nav-brand" href="about.html">Amanda Masis</a>
+    <ul class="nav-items">
+      <li><a href="about.html" data-page="about">About</a></li>
+      <li><a href="reflection.html" data-page="reflection">Reflection</a></li>
+      <li>
+        <a href="goal1.html" data-page="goal1">Goal 1</a>
+        <ul class="dropdown">
+          <li><a href="goal1.html#outcome-1a">Outcome 1a</a></li>
+          <li><a href="goal1.html#outcome-1b">Outcome 1b</a></li>
+          <li><a href="goal1.html#outcome-1c">Outcome 1c</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="goal2.html" data-page="goal2">Goal 2</a>
+        <ul class="dropdown">
+          <li><a href="goal2.html#outcome-2a">Outcome 2a</a></li>
+          <li><a href="goal2.html#outcome-2b">Outcome 2b</a></li>
+          <li><a href="goal2.html#outcome-2c">Outcome 2c</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="goal3.html" data-page="goal3">Goal 3</a>
+        <ul class="dropdown">
+          <li><a href="goal3.html#outcome-3a">Outcome 3a</a></li>
+          <li><a href="goal3.html#outcome-3b">Outcome 3b</a></li>
+          <li><a href="goal3.html#outcome-3c">Outcome 3c</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="goal4.html" data-page="goal4">Goal 4</a>
+        <ul class="dropdown">
+          <li><a href="goal4.html#outcome-4a">Outcome 4a</a></li>
+          <li><a href="goal4.html#outcome-4b">Outcome 4b</a></li>
+          <li><a href="goal4.html#outcome-4c">Outcome 4c</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="goal5.html" data-page="goal5">Goal 5</a>
+        <ul class="dropdown">
+          <li><a href="goal5.html#outcome-5a">Outcome 5a</a></li>
+          <li><a href="goal5.html#outcome-5b">Outcome 5b</a></li>
+          <li><a href="goal5.html#outcome-5c">Outcome 5c</a></li>
+        </ul>
+      </li>
+      <li><a href="cv.html" data-page="cv">CV</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div id="mobile-menu">
+    <a href="about.html">About</a>
+    <a href="reflection.html">Reflection</a>
+    <a href="goal1.html">Goal 1</a>
+    <a class="mob-sub" href="goal1.html#outcome-1a">Outcome 1a</a>
+    <a class="mob-sub" href="goal1.html#outcome-1b">Outcome 1b</a>
+    <a class="mob-sub" href="goal1.html#outcome-1c">Outcome 1c</a>
+    <a href="goal2.html">Goal 2</a>
+    <a class="mob-sub" href="goal2.html#outcome-2a">Outcome 2a</a>
+    <a class="mob-sub" href="goal2.html#outcome-2b">Outcome 2b</a>
+    <a class="mob-sub" href="goal2.html#outcome-2c">Outcome 2c</a>
+    <a href="goal3.html">Goal 3</a>
+    <a class="mob-sub" href="goal3.html#outcome-3a">Outcome 3a</a>
+    <a class="mob-sub" href="goal3.html#outcome-3b">Outcome 3b</a>
+    <a class="mob-sub" href="goal3.html#outcome-3c">Outcome 3c</a>
+    <a href="goal4.html">Goal 4</a>
+    <a class="mob-sub" href="goal4.html#outcome-4a">Outcome 4a</a>
+    <a class="mob-sub" href="goal4.html#outcome-4b">Outcome 4b</a>
+    <a class="mob-sub" href="goal4.html#outcome-4c">Outcome 4c</a>
+    <a href="goal5.html">Goal 5</a>
+    <a class="mob-sub" href="goal5.html#outcome-5a">Outcome 5a</a>
+    <a class="mob-sub" href="goal5.html#outcome-5b">Outcome 5b</a>
+    <a class="mob-sub" href="goal5.html#outcome-5c">Outcome 5c</a>
+    <a href="cv.html">CV</a>
+  </div>
+<div id="subnav">
+    <a href="#outcome-5a">Outcome 5a</a>
+    <a href="#outcome-5b">Outcome 5b</a>
+    <a href="#outcome-5c">Outcome 5c</a>
+  </div>
+
+  <div class="page-body" style="max-width: 1200px; margin-left: auto; margin-right: auto;">
+    <div class="eyebrow">Goal 5</div>
+    <h1>Communicate, Collaborate &amp; Advocate</h1>
+    <div class="title-rule"></div>
+    <p>Effectively communicate and collaborate to deliver, market, and advocate for library and information services.</p>
+
+    <div class="sub-section" id="outcome-5a">
+      <div class="eyebrow">Outcome 5a</div>
+      <h2>Apply marketing and/or advocacy principles to demonstrate and promote the value of libraries and information agencies.</h2>
+    <div class="sub-section" id="artifact-design-5a">
+      <div class="eyebrow">Artifact</div>
+      <h2>Design Thinking Project</h2>
+      <p>A design thinking proposal developed for LIS 707 imagining a new public programming initiative at the Huntington Library in San Marino, California. The project proposes a structured presentation series giving urban planning, architecture, and landscape architecture students and professionals hands-on access to the Huntington's architecture and photography collection.</p>
+      <div class="pdf-embed-wrap">
+        <iframe src="DesignThinkingProject_LIS_707_Amanda_Masis.pdf" title="Design Thinking Project"></iframe>
+      </div>
+      <div class="pdf-meta">
+        <span class="pdf-meta-info">LIS 707 &nbsp;·&nbsp; Design Thinking Project &nbsp;·&nbsp; Amanda Masis</span>
+        <a class="pdf-download" href="DesignThinkingProject_LIS_707_Amanda_Masis.pdf" download>↓ Download PDF</a>
+      </div>
+    </div>
+    </div>
+
+    <div class="sub-section" id="outcome-5b">
+      <div class="eyebrow">Outcome 5b</div>
+      <h2>Demonstrate effective professional communication to achieve common understanding as an individual or in group settings.</h2>
+    <div class="sub-section" id="artifact-film-5b">
+      <div class="eyebrow">Artifact</div>
+      <h2>Experimental Film Digital Curation Project</h2>
+      <p>A presentation from the digital curation course centered around curating born digital objects across a wide variety of formats. The organizing theme was experimental film — collecting short films, interviews, images, and text documents related to experimental films and filmmakers. The video is a walkthrough of the curatorial process and objects.</p>
+      <div class="vimeo-outer">
+        <div class="vimeo-embed-wrap">
+          <iframe src="https://player.vimeo.com/video/1079241686?h=6a6769c5db" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Experimental Film Digital Curation Project"></iframe>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="sub-section" id="outcome-5c">
+      <div class="eyebrow">Outcome 5c</div>
+      <h2>Demonstrate leadership principles in an educational, professional, or community context.</h2>
+    <div class="sub-section" id="artifact-cyber-5c">
+      <div class="eyebrow">Artifact</div>
+      <h2>CyberNavigator Reflection</h2>
+      <p class="essay-abstract">A reflection on working as a CyberNavigator at the Chicago Public Library — and what it taught me about digital equity, the ethics of care, and the scope of public library work.</p>
+      <div class="pdf-embed-wrap">
+        <iframe src="Cybernavigator.pdf" title="CyberNavigator Reflection"></iframe>
+      </div>
+      <div class="pdf-meta">
+        <span class="pdf-meta-info">CyberNavigator Reflection &nbsp;·&nbsp; Amanda Masis</span>
+        <a class="pdf-download" href="Cybernavigator.pdf" download>↓ Download PDF</a>
+      </div>
+    </div>
+    </div>
+  </div>
+  <script>
+    document.getElementById('hamburger').addEventListener('click', () =>
+      document.getElementById('mobile-menu').classList.toggle('open'));
+    const here = location.pathname.split('/').pop() || 'about.html';
+    document.querySelectorAll('.nav-items > li > a[data-page]').forEach(a => {
+      if (a.getAttribute('href') === here) a.classList.add('active');
+    });
+    if (location.hash) {
+      setTimeout(() => {
+        const el = document.querySelector(location.hash);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 80);
+    }
+  </script>
+</body>
+</html>
