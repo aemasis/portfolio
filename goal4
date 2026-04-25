@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Goal 4 — Theory & Practice — Amanda Masis</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="has-subnav">
+  <!-- TOP NAV -->
+  <nav id="topnav">
+    <a class="nav-brand" href="about.html">Amanda Masis</a>
+    <ul class="nav-items">
+      <li><a href="about.html" data-page="about">About</a></li>
+      <li><a href="reflection.html" data-page="reflection">Reflection</a></li>
+      <li>
+        <a href="goal1.html" data-page="goal1">Goal 1</a>
+        <ul class="dropdown">
+          <li><a href="goal1.html#outcome-1a">Outcome 1a</a></li>
+          <li><a href="goal1.html#outcome-1b">Outcome 1b</a></li>
+          <li><a href="goal1.html#outcome-1c">Outcome 1c</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="goal2.html" data-page="goal2">Goal 2</a>
+        <ul class="dropdown">
+          <li><a href="goal2.html#outcome-2a">Outcome 2a</a></li>
+          <li><a href="goal2.html#outcome-2b">Outcome 2b</a></li>
+          <li><a href="goal2.html#outcome-2c">Outcome 2c</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="goal3.html" data-page="goal3">Goal 3</a>
+        <ul class="dropdown">
+          <li><a href="goal3.html#outcome-3a">Outcome 3a</a></li>
+          <li><a href="goal3.html#outcome-3b">Outcome 3b</a></li>
+          <li><a href="goal3.html#outcome-3c">Outcome 3c</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="goal4.html" data-page="goal4">Goal 4</a>
+        <ul class="dropdown">
+          <li><a href="goal4.html#outcome-4a">Outcome 4a</a></li>
+          <li><a href="goal4.html#outcome-4b">Outcome 4b</a></li>
+          <li><a href="goal4.html#outcome-4c">Outcome 4c</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="goal5.html" data-page="goal5">Goal 5</a>
+        <ul class="dropdown">
+          <li><a href="goal5.html#outcome-5a">Outcome 5a</a></li>
+          <li><a href="goal5.html#outcome-5b">Outcome 5b</a></li>
+          <li><a href="goal5.html#outcome-5c">Outcome 5c</a></li>
+        </ul>
+      </li>
+      <li><a href="cv.html" data-page="cv">CV</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div id="mobile-menu">
+    <a href="about.html">About</a>
+    <a href="reflection.html">Reflection</a>
+    <a href="goal1.html">Goal 1</a>
+    <a class="mob-sub" href="goal1.html#outcome-1a">Outcome 1a</a>
+    <a class="mob-sub" href="goal1.html#outcome-1b">Outcome 1b</a>
+    <a class="mob-sub" href="goal1.html#outcome-1c">Outcome 1c</a>
+    <a href="goal2.html">Goal 2</a>
+    <a class="mob-sub" href="goal2.html#outcome-2a">Outcome 2a</a>
+    <a class="mob-sub" href="goal2.html#outcome-2b">Outcome 2b</a>
+    <a class="mob-sub" href="goal2.html#outcome-2c">Outcome 2c</a>
+    <a href="goal3.html">Goal 3</a>
+    <a class="mob-sub" href="goal3.html#outcome-3a">Outcome 3a</a>
+    <a class="mob-sub" href="goal3.html#outcome-3b">Outcome 3b</a>
+    <a class="mob-sub" href="goal3.html#outcome-3c">Outcome 3c</a>
+    <a href="goal4.html">Goal 4</a>
+    <a class="mob-sub" href="goal4.html#outcome-4a">Outcome 4a</a>
+    <a class="mob-sub" href="goal4.html#outcome-4b">Outcome 4b</a>
+    <a class="mob-sub" href="goal4.html#outcome-4c">Outcome 4c</a>
+    <a href="goal5.html">Goal 5</a>
+    <a class="mob-sub" href="goal5.html#outcome-5a">Outcome 5a</a>
+    <a class="mob-sub" href="goal5.html#outcome-5b">Outcome 5b</a>
+    <a class="mob-sub" href="goal5.html#outcome-5c">Outcome 5c</a>
+    <a href="cv.html">CV</a>
+  </div>
+<div id="subnav">
+    <a href="#outcome-4a">Outcome 4a</a>
+    <a href="#outcome-4b">Outcome 4b</a>
+    <a href="#outcome-4c">Outcome 4c</a>
+  </div>
+
+  <div class="page-body" style="max-width: 1200px; margin-left: auto; margin-right: auto;">
+    <div class="eyebrow">Goal 4</div>
+    <h1>Synthesize Theory &amp; Practice</h1>
+    <div class="title-rule"></div>
+    <p>Synthesize theory and practice within a dynamic, evolving, and diverse information environment.</p>
+
+    <div class="sub-section" id="outcome-4a">
+      <div class="eyebrow">Outcome 4a</div>
+      <h2>Apply library and information science theories, principles, and research to professional practice.</h2>
+    <div class="sub-section" id="artifact-cyber-4a">
+      <div class="eyebrow">Artifact</div>
+      <h2>CyberNavigator Reflection</h2>
+      <p class="essay-abstract">A reflection on working as a CyberNavigator at the Chicago Public Library — and what it taught me about digital equity, the ethics of care, and the scope of public library work.</p>
+      <div class="pdf-embed-wrap">
+        <iframe src="Cybernavigator.pdf" title="CyberNavigator Reflection"></iframe>
+      </div>
+      <div class="pdf-meta">
+        <span class="pdf-meta-info">CyberNavigator Reflection &nbsp;·&nbsp; Amanda Masis</span>
+        <a class="pdf-download" href="Cybernavigator.pdf" download>↓ Download PDF</a>
+      </div>
+    </div>
+    </div>
+
+    <div class="sub-section" id="outcome-4b">
+      <div class="eyebrow">Outcome 4b</div>
+      <h2>Evaluate current and emerging technologies for information capture, organization, dissemination, access, and/or curation to meet the variety of information needs of diverse communities.</h2>
+    <div class="sub-section" id="artifact-knitting-4b">
+      <div class="eyebrow">Artifact</div>
+      <h2>A Guide to Knitting</h2>
+      <p>A website developed for INF 253, Intro to Web Design. The site is designed to be a resource for people who are just getting started with knitting and want to know more about its historical and cultural significance.</p>
+      <div class="project-preview">
+        <a href="https://aemasis.github.io/Final/homepage.html" target="_blank" class="project-preview-link">
+          <img src="knittingsite.png" alt="A Guide to Knitting screenshot" class="project-screenshot" />
+          <div class="project-overlay"><span>↗ Visit Site</span></div>
+        </a>
+      </div>
+    </div>
+    </div>
+
+    <div class="sub-section" id="outcome-4c">
+      <div class="eyebrow">Outcome 4c</div>
+      <h2>Demonstrate teaching and learning principles in relation to professional practice.</h2>
+    <div class="sub-section" id="artifact-textile-4c">
+      <div class="eyebrow">Artifact</div>
+      <h2>Textile History</h2>
+      <p>A subject guide created for LIS 702 on facilitating user experience. This webpage acts as an interactive subject guide providing users with eight books and four websites to begin exploring textile and material history.</p>
+      <div class="project-preview">
+        <a href="https://sites.google.com/view/textilehistory/home" target="_blank" class="project-preview-link">
+          <img src="textilebib.png" alt="Textile History subject guide screenshot" class="project-screenshot" />
+          <div class="project-overlay"><span>↗ Visit Site</span></div>
+        </a>
+      </div>
+    </div>
+    </div>
+  </div>
+  <script>
+    document.getElementById('hamburger').addEventListener('click', () =>
+      document.getElementById('mobile-menu').classList.toggle('open'));
+    const here = location.pathname.split('/').pop() || 'about.html';
+    document.querySelectorAll('.nav-items > li > a[data-page]').forEach(a => {
+      if (a.getAttribute('href') === here) a.classList.add('active');
+    });
+    if (location.hash) {
+      setTimeout(() => {
+        const el = document.querySelector(location.hash);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 80);
+    }
+  </script>
+</body>
+</html>
