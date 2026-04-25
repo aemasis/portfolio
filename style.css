@@ -177,7 +177,7 @@ html, body {
 /* ── TYPOGRAPHY ── */
 .eyebrow {
   font-family: var(--font-mono);
-  font-size: 0.85rem;
+  font-size: 1.24rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--warm-mid);
@@ -196,7 +196,7 @@ h1 {
 
 h2 {
   font-family: var(--font-serif);
-  font-size: 1.1rem;
+  font-size: 0.85rem;
   font-weight: 300;
   font-style: italic;
   line-height: 1.8;
@@ -220,12 +220,15 @@ h2 {
 
 p {
   font-family: var(--font-serif);
-  font-size: 1.1rem;
+  font-size: 0.85rem;
   font-weight: 300;
   line-height: 1.8;
   color: #3a3530;
   max-width: 64ch;
   margin-bottom: 1rem;
+}
+.page-body > p {
+  font-size: 0.85rem;
 }
 
 .title-rule {
@@ -567,7 +570,7 @@ p {
   margin-bottom: 1.25rem;
 }
 .about-block p {
-  font-size: 20pt;
+  font-size: 0.85rem;
   max-width: 100%;
 }
 
