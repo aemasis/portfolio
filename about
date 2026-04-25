@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>About — Portfolio</title>
+  <title>About — Amanda Masis</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,33 +17,45 @@
       <li><a href="about.html" data-page="about">About</a></li>
       <li><a href="reflection.html" data-page="reflection">Reflection</a></li>
       <li>
-        <a href="papers.html" data-page="papers">Essays</a>
+        <a href="goal1.html" data-page="goal1">Goal 1</a>
         <ul class="dropdown">
-          <li><a href="papers.html#paper-1"><span class="nav-num">01</span>&nbsp; Affective Archiving</a></li>
-          <li><a href="papers.html#paper-2"><span class="nav-num">02</span>&nbsp; Placemaking &amp; the Library</a></li>
-          <li><a href="papers.html#paper-3"><span class="nav-num">03</span>&nbsp; Neutrality &amp; The Library</a></li>
-          <li><a href="papers.html#paper-4"><span class="nav-num">04</span>&nbsp; Net Neutrality &amp; Equity of Access</a></li>
-          <li><a href="papers.html#paper-5"><span class="nav-num">05</span>&nbsp; CyberNavigator Reflection</a></li>
+          <li><a href="goal1.html#outcome-1a">Outcome 1a</a></li>
+          <li><a href="goal1.html#outcome-1b">Outcome 1b</a></li>
+          <li><a href="goal1.html#outcome-1c">Outcome 1c</a></li>
         </ul>
       </li>
       <li>
-        <a href="projects.html" data-page="bibliographies">Projects</a>
+        <a href="goal2.html" data-page="goal2">Goal 2</a>
         <ul class="dropdown">
-          <li><a href="projects.html#bib-1"><span class="nav-num">06</span>&nbsp; Textile History</a></li>
-          <li><a href="projects.html#bib-2"><span class="nav-num">07</span>&nbsp; Design Thinking Project</a></li>
-          <li><a href="projects.html#bib-3"><span class="nav-num">08</span>&nbsp; Mis-en-Page Analyses</a></li>
-          <li><a href="projects.html#bib-4"><span class="nav-num">09</span>&nbsp; Book Conservation and Binding</a></li>
+          <li><a href="goal2.html#outcome-2a">Outcome 2a</a></li>
+          <li><a href="goal2.html#outcome-2b">Outcome 2b</a></li>
+          <li><a href="goal2.html#outcome-2c">Outcome 2c</a></li>
         </ul>
       </li>
       <li>
-        <a href="curation.html" data-page="curation">Curating &amp; Web Design</a>
+        <a href="goal3.html" data-page="goal3">Goal 3</a>
         <ul class="dropdown">
-          <li><a href="curation.html#curation-1"><span class="nav-num">10</span>&nbsp; Experimental Film Digital Curation Presentation</a></li>
-          <li><a href="curation.html#curation-2"><span class="nav-num">11</span>&nbsp; A Guide To Knitting</a></li>
-          <li><a href="curation.html#curation-3"><span class="nav-num">12</span>&nbsp; The Whole Sky On A Page</a></li>
+          <li><a href="goal3.html#outcome-3a">Outcome 3a</a></li>
+          <li><a href="goal3.html#outcome-3b">Outcome 3b</a></li>
+          <li><a href="goal3.html#outcome-3c">Outcome 3c</a></li>
         </ul>
       </li>
-      <li><a href="goals.html" data-page="goals">Goals</a></li>
+      <li>
+        <a href="goal4.html" data-page="goal4">Goal 4</a>
+        <ul class="dropdown">
+          <li><a href="goal4.html#outcome-4a">Outcome 4a</a></li>
+          <li><a href="goal4.html#outcome-4b">Outcome 4b</a></li>
+          <li><a href="goal4.html#outcome-4c">Outcome 4c</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="goal5.html" data-page="goal5">Goal 5</a>
+        <ul class="dropdown">
+          <li><a href="goal5.html#outcome-5a">Outcome 5a</a></li>
+          <li><a href="goal5.html#outcome-5b">Outcome 5b</a></li>
+          <li><a href="goal5.html#outcome-5c">Outcome 5c</a></li>
+        </ul>
+      </li>
       <li><a href="cv.html" data-page="cv">CV</a></li>
     </ul>
     <button class="hamburger" id="hamburger" aria-label="Menu">
@@ -55,22 +67,26 @@
   <div id="mobile-menu">
     <a href="about.html">About</a>
     <a href="reflection.html">Reflection</a>
-    <a href="papers.html">Essays</a>
-    <a class="mob-sub" href="papers.html#paper-1"><span class="nav-num">01</span> Affective Archiving</a>
-    <a class="mob-sub" href="papers.html#paper-2"><span class="nav-num">02</span> Placemaking &amp; the Library</a>
-    <a class="mob-sub" href="papers.html#paper-3"><span class="nav-num">03</span> Neutrality &amp; The Library</a>
-    <a class="mob-sub" href="papers.html#paper-4"><span class="nav-num">04</span> Net Neutrality &amp; Equity of Access</a>
-    <a class="mob-sub" href="papers.html#paper-5"><span class="nav-num">05</span> CyberNavigator Reflection</a>
-    <a href="projects.html">Projects</a>
-    <a class="mob-sub" href="projects.html#bib-1"><span class="nav-num">06</span> Textile History</a>
-    <a class="mob-sub" href="projects.html#bib-2"><span class="nav-num">07</span> Design Thinking Project</a>
-    <a class="mob-sub" href="projects.html#bib-3"><span class="nav-num">08</span> Mis-en-Page Analyses</a>
-    <a class="mob-sub" href="projects.html#bib-4"><span class="nav-num">09</span> Book Conservation and Binding</a>
-    <a href="curation.html">Curating &amp; Web Design</a>
-    <a class="mob-sub" href="curation.html#curation-1"><span class="nav-num">10</span> Experimental Film Digital Curation Presentation</a>
-    <a class="mob-sub" href="curation.html#curation-2"><span class="nav-num">11</span> A Guide To Knitting</a>
-    <a class="mob-sub" href="curation.html#curation-3"><span class="nav-num">12</span> The Whole Sky On A Page</a>
-    <a href="goals.html">Goals</a>
+    <a href="goal1.html">Goal 1</a>
+    <a class="mob-sub" href="goal1.html#outcome-1a">Outcome 1a</a>
+    <a class="mob-sub" href="goal1.html#outcome-1b">Outcome 1b</a>
+    <a class="mob-sub" href="goal1.html#outcome-1c">Outcome 1c</a>
+    <a href="goal2.html">Goal 2</a>
+    <a class="mob-sub" href="goal2.html#outcome-2a">Outcome 2a</a>
+    <a class="mob-sub" href="goal2.html#outcome-2b">Outcome 2b</a>
+    <a class="mob-sub" href="goal2.html#outcome-2c">Outcome 2c</a>
+    <a href="goal3.html">Goal 3</a>
+    <a class="mob-sub" href="goal3.html#outcome-3a">Outcome 3a</a>
+    <a class="mob-sub" href="goal3.html#outcome-3b">Outcome 3b</a>
+    <a class="mob-sub" href="goal3.html#outcome-3c">Outcome 3c</a>
+    <a href="goal4.html">Goal 4</a>
+    <a class="mob-sub" href="goal4.html#outcome-4a">Outcome 4a</a>
+    <a class="mob-sub" href="goal4.html#outcome-4b">Outcome 4b</a>
+    <a class="mob-sub" href="goal4.html#outcome-4c">Outcome 4c</a>
+    <a href="goal5.html">Goal 5</a>
+    <a class="mob-sub" href="goal5.html#outcome-5a">Outcome 5a</a>
+    <a class="mob-sub" href="goal5.html#outcome-5b">Outcome 5b</a>
+    <a class="mob-sub" href="goal5.html#outcome-5c">Outcome 5c</a>
     <a href="cv.html">CV</a>
   </div>
 <div class="about-hero">
@@ -83,8 +99,8 @@
     <div class="about-row">
       <div class="about-block">
         <div class="eyebrow">Libraries</div>
-        <p>Amanda Masis is a graduate student at Dominican University completing her master's degree in library science. She comes to the field with an undergraduate degree in urban planning and two associate's degrees, one in art history and one in sociology.</p>
-        <p>Her library career began at the Chicago Public Library, where she worked as a Cyber Navigator, helping community members build digital skills and connect with online resources.</p>
+        <p>Amanda Masis is a graduate student at Dominican University completing her master's degree in library science. She comes to the field with an undergraduate degree in urban planning and associate's degrees in art history and sociology.</p>
+        <p>Her library career began at the Chicago Public Library, where she worked as a Cyber Navigator in the Bronzeville community, helping residents build digital skills and connect with online resources.</p>
         <p>In May 2025, Amanda was selected to participate in the Newberry Library's Summer Library Assistant program. Working in the reading rooms, she assisted patrons, reshelved materials, responded to reference requests, and managed the library's genealogical periodicals. She stayed on after the summer as a Library Assistant and was promoted to Assistant Digital Asset Manager. She now helps to oversee the Newberry's digitized holdings and works to make them accessible to the public. Her current project involves preparing over 20,000 French pamphlets for researcher and public access.</p>
       </div>
       <div class="about-image-col">
