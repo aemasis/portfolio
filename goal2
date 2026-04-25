@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Goal 2 — Essential Information — Amanda Masis</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="has-subnav">
+  <!-- TOP NAV -->
+  <nav id="topnav">
+    <a class="nav-brand" href="about.html">Amanda Masis</a>
+    <ul class="nav-items">
+      <li><a href="about.html" data-page="about">About</a></li>
+      <li><a href="reflection.html" data-page="reflection">Reflection</a></li>
+      <li>
+        <a href="goal1.html" data-page="goal1">Goal 1</a>
+        <ul class="dropdown">
+          <li><a href="goal1.html#outcome-1a">Outcome 1a</a></li>
+          <li><a href="goal1.html#outcome-1b">Outcome 1b</a></li>
+          <li><a href="goal1.html#outcome-1c">Outcome 1c</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="goal2.html" data-page="goal2">Goal 2</a>
+        <ul class="dropdown">
+          <li><a href="goal2.html#outcome-2a">Outcome 2a</a></li>
+          <li><a href="goal2.html#outcome-2b">Outcome 2b</a></li>
+          <li><a href="goal2.html#outcome-2c">Outcome 2c</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="goal3.html" data-page="goal3">Goal 3</a>
+        <ul class="dropdown">
+          <li><a href="goal3.html#outcome-3a">Outcome 3a</a></li>
+          <li><a href="goal3.html#outcome-3b">Outcome 3b</a></li>
+          <li><a href="goal3.html#outcome-3c">Outcome 3c</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="goal4.html" data-page="goal4">Goal 4</a>
+        <ul class="dropdown">
+          <li><a href="goal4.html#outcome-4a">Outcome 4a</a></li>
+          <li><a href="goal4.html#outcome-4b">Outcome 4b</a></li>
+          <li><a href="goal4.html#outcome-4c">Outcome 4c</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="goal5.html" data-page="goal5">Goal 5</a>
+        <ul class="dropdown">
+          <li><a href="goal5.html#outcome-5a">Outcome 5a</a></li>
+          <li><a href="goal5.html#outcome-5b">Outcome 5b</a></li>
+          <li><a href="goal5.html#outcome-5c">Outcome 5c</a></li>
+        </ul>
+      </li>
+      <li><a href="cv.html" data-page="cv">CV</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div id="mobile-menu">
+    <a href="about.html">About</a>
+    <a href="reflection.html">Reflection</a>
+    <a href="goal1.html">Goal 1</a>
+    <a class="mob-sub" href="goal1.html#outcome-1a">Outcome 1a</a>
+    <a class="mob-sub" href="goal1.html#outcome-1b">Outcome 1b</a>
+    <a class="mob-sub" href="goal1.html#outcome-1c">Outcome 1c</a>
+    <a href="goal2.html">Goal 2</a>
+    <a class="mob-sub" href="goal2.html#outcome-2a">Outcome 2a</a>
+    <a class="mob-sub" href="goal2.html#outcome-2b">Outcome 2b</a>
+    <a class="mob-sub" href="goal2.html#outcome-2c">Outcome 2c</a>
+    <a href="goal3.html">Goal 3</a>
+    <a class="mob-sub" href="goal3.html#outcome-3a">Outcome 3a</a>
+    <a class="mob-sub" href="goal3.html#outcome-3b">Outcome 3b</a>
+    <a class="mob-sub" href="goal3.html#outcome-3c">Outcome 3c</a>
+    <a href="goal4.html">Goal 4</a>
+    <a class="mob-sub" href="goal4.html#outcome-4a">Outcome 4a</a>
+    <a class="mob-sub" href="goal4.html#outcome-4b">Outcome 4b</a>
+    <a class="mob-sub" href="goal4.html#outcome-4c">Outcome 4c</a>
+    <a href="goal5.html">Goal 5</a>
+    <a class="mob-sub" href="goal5.html#outcome-5a">Outcome 5a</a>
+    <a class="mob-sub" href="goal5.html#outcome-5b">Outcome 5b</a>
+    <a class="mob-sub" href="goal5.html#outcome-5c">Outcome 5c</a>
+    <a href="cv.html">CV</a>
+  </div>
+<div id="subnav">
+    <a href="#outcome-2a">Outcome 2a</a>
+    <a href="#outcome-2b">Outcome 2b</a>
+    <a href="#outcome-2c">Outcome 2c</a>
+  </div>
+
+  <div class="page-body" style="max-width: 1200px; margin-left: auto; margin-right: auto;">
+    <div class="eyebrow">Goal 2</div>
+    <h1>Essential Nature of Information</h1>
+    <div class="title-rule"></div>
+    <p>Understand the essential nature of information and its relevance to our diverse society.</p>
+
+    <div class="sub-section" id="outcome-2a">
+      <div class="eyebrow">Outcome 2a</div>
+      <h2>Describe various definitions and concepts of information.</h2>
+    <div class="sub-section" id="artifact-affective-2a">
+      <div class="eyebrow">Artifact</div>
+      <h2>Affective Archiving</h2>
+      <p class="essay-abstract">How can affect theory help archivists create new frameworks to work with?</p>
+      <div class="pdf-embed-wrap">
+        <iframe src="Final_Paper_LIS_755_01_Amanda_Masis.pdf" title="Affective Archiving"></iframe>
+      </div>
+      <div class="pdf-meta">
+        <span class="pdf-meta-info">PDF &nbsp;·&nbsp; LIS 755</span>
+        <a class="pdf-download" href="Final_Paper_LIS_755_01_Amanda_Masis.pdf" download>↓ Download PDF</a>
+      </div>
+    </div>
+    </div>
+
+    <div class="sub-section" id="outcome-2b">
+      <div class="eyebrow">Outcome 2b</div>
+      <h2>Explain the impact of information policies on intellectual freedom, access, literacy, information behavior, and other aspects of library and information science.</h2>
+    <div class="sub-section" id="artifact-neutrality-2b">
+      <div class="eyebrow">Artifact</div>
+      <h2>Neutrality &amp; The Library</h2>
+      <p class="essay-abstract">Should libraries be political?</p>
+      <div class="pdf-embed-wrap">
+        <iframe src="Essay_Amanda_Masis_LIS_701.pdf" title="Neutrality &amp; The Library"></iframe>
+      </div>
+      <div class="pdf-meta">
+        <span class="pdf-meta-info">PDF &nbsp;·&nbsp; LIS 701</span>
+        <a class="pdf-download" href="Essay_Amanda_Masis_LIS_701.pdf" download>↓ Download PDF</a>
+      </div>
+    </div>
+    </div>
+
+    <div class="sub-section" id="outcome-2c">
+      <div class="eyebrow">Outcome 2c</div>
+      <h2>Develop appropriate responses to assessed information needs within diverse communities/organizations.</h2>
+    <div class="sub-section" id="artifact-netneutrality-2c">
+      <div class="eyebrow">Artifact</div>
+      <h2>Net Neutrality &amp; Equity of Access</h2>
+      <p class="essay-abstract">How does net neutrality relate to information equity, and what is the role of the information professional in navigating its impact on patrons?</p>
+      <div class="pdf-embed-wrap">
+        <iframe src="Net_Neutrality_Final_Essay_Amanda_Masis_LIS_701.pdf" title="Net Neutrality &amp; Equity of Access"></iframe>
+      </div>
+      <div class="pdf-meta">
+        <span class="pdf-meta-info">PDF &nbsp;·&nbsp; LIS 701</span>
+        <a class="pdf-download" href="Net_Neutrality_Final_Essay_Amanda_Masis_LIS_701.pdf" download>↓ Download PDF</a>
+      </div>
+    </div>
+    </div>
+  </div>
+  <script>
+    document.getElementById('hamburger').addEventListener('click', () =>
+      document.getElementById('mobile-menu').classList.toggle('open'));
+    const here = location.pathname.split('/').pop() || 'about.html';
+    document.querySelectorAll('.nav-items > li > a[data-page]').forEach(a => {
+      if (a.getAttribute('href') === here) a.classList.add('active');
+    });
+    if (location.hash) {
+      setTimeout(() => {
+        const el = document.querySelector(location.hash);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 80);
+    }
+  </script>
+</body>
+</html>
