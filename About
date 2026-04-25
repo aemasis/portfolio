@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>About — Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="no-subnav">
+  <!-- TOP NAV -->
+  <nav id="topnav">
+    <a class="nav-brand" href="about.html">Amanda Masis</a>
+    <ul class="nav-items">
+      <li><a href="about.html" data-page="about">About</a></li>
+      <li><a href="reflection.html" data-page="reflection">Reflection</a></li>
+      <li>
+        <a href="papers.html" data-page="papers">Essays</a>
+        <ul class="dropdown">
+          <li><a href="papers.html#paper-1"><span class="nav-num">01</span>&nbsp; Affective Archiving</a></li>
+          <li><a href="papers.html#paper-2"><span class="nav-num">02</span>&nbsp; Placemaking &amp; the Library</a></li>
+          <li><a href="papers.html#paper-3"><span class="nav-num">03</span>&nbsp; Neutrality &amp; The Library</a></li>
+          <li><a href="papers.html#paper-4"><span class="nav-num">04</span>&nbsp; Net Neutrality &amp; Equity of Access</a></li>
+          <li><a href="papers.html#paper-5"><span class="nav-num">05</span>&nbsp; CyberNavigator Reflection</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="projects.html" data-page="bibliographies">Projects</a>
+        <ul class="dropdown">
+          <li><a href="projects.html#bib-1"><span class="nav-num">06</span>&nbsp; Textile History</a></li>
+          <li><a href="projects.html#bib-2"><span class="nav-num">07</span>&nbsp; Design Thinking Project</a></li>
+          <li><a href="projects.html#bib-3"><span class="nav-num">08</span>&nbsp; Mis-en-Page Analyses</a></li>
+          <li><a href="projects.html#bib-4"><span class="nav-num">09</span>&nbsp; Book Conservation and Binding</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="curation.html" data-page="curation">Curating &amp; Web Design</a>
+        <ul class="dropdown">
+          <li><a href="curation.html#curation-1"><span class="nav-num">10</span>&nbsp; Experimental Film Digital Curation Presentation</a></li>
+          <li><a href="curation.html#curation-2"><span class="nav-num">11</span>&nbsp; A Guide To Knitting</a></li>
+          <li><a href="curation.html#curation-3"><span class="nav-num">12</span>&nbsp; The Whole Sky On A Page</a></li>
+        </ul>
+      </li>
+      <li><a href="goals.html" data-page="goals">Goals</a></li>
+      <li><a href="cv.html" data-page="cv">CV</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div id="mobile-menu">
+    <a href="about.html">About</a>
+    <a href="reflection.html">Reflection</a>
+    <a href="papers.html">Essays</a>
+    <a class="mob-sub" href="papers.html#paper-1"><span class="nav-num">01</span> Affective Archiving</a>
+    <a class="mob-sub" href="papers.html#paper-2"><span class="nav-num">02</span> Placemaking &amp; the Library</a>
+    <a class="mob-sub" href="papers.html#paper-3"><span class="nav-num">03</span> Neutrality &amp; The Library</a>
+    <a class="mob-sub" href="papers.html#paper-4"><span class="nav-num">04</span> Net Neutrality &amp; Equity of Access</a>
+    <a class="mob-sub" href="papers.html#paper-5"><span class="nav-num">05</span> CyberNavigator Reflection</a>
+    <a href="projects.html">Projects</a>
+    <a class="mob-sub" href="projects.html#bib-1"><span class="nav-num">06</span> Textile History</a>
+    <a class="mob-sub" href="projects.html#bib-2"><span class="nav-num">07</span> Design Thinking Project</a>
+    <a class="mob-sub" href="projects.html#bib-3"><span class="nav-num">08</span> Mis-en-Page Analyses</a>
+    <a class="mob-sub" href="projects.html#bib-4"><span class="nav-num">09</span> Book Conservation and Binding</a>
+    <a href="curation.html">Curating &amp; Web Design</a>
+    <a class="mob-sub" href="curation.html#curation-1"><span class="nav-num">10</span> Experimental Film Digital Curation Presentation</a>
+    <a class="mob-sub" href="curation.html#curation-2"><span class="nav-num">11</span> A Guide To Knitting</a>
+    <a class="mob-sub" href="curation.html#curation-3"><span class="nav-num">12</span> The Whole Sky On A Page</a>
+    <a href="goals.html">Goals</a>
+    <a href="cv.html">CV</a>
+  </div>
+<div class="about-hero">
+    <div class="eyebrow">MLIS Candidate &nbsp;·&nbsp; Dominican University</div>
+    <h1>Amanda Masis</h1>
+    <p class="tagline">Archivist-in-training <span class="ornament">✦</span> Fiber Artist <span class="ornament">✦</span> Textile Researcher</p>
+  </div>
+  <div class="page-body about-rows" style="padding-top:0;">
+
+    <div class="about-row">
+      <div class="about-block">
+        <div class="eyebrow">Libraries</div>
+        <p>Amanda Masis is a graduate student at Dominican University completing her master's degree in library science. She comes to the field with an undergraduate degree in urban planning and two associate's degrees, one in art history and one in sociology.</p>
+        <p>Her library career began at the Chicago Public Library, where she worked as a Cyber Navigator, helping community members build digital skills and connect with online resources.</p>
+        <p>In May 2025, Amanda was selected to participate in the Newberry Library's Summer Library Assistant program. Working in the reading rooms, she assisted patrons, reshelved materials, responded to reference requests, and managed the library's genealogical periodicals. She stayed on after the summer as a Library Assistant and was promoted to Assistant Digital Asset Manager. She now helps to oversee the Newberry's digitized holdings and works to make them accessible to the public. Her current project involves preparing over 20,000 French pamphlets for researcher and public access.</p>
+      </div>
+      <div class="about-image-col">
+        <img src="the_circulating_library.jpg" alt="The Circulating Library" class="about-image" />
+      </div>
+    </div>
+
+    <div class="about-row">
+      <div class="about-block">
+        <div class="eyebrow">Art &amp; Research</div>
+        <p>Outside the library, Amanda is a fiber artist and independent researcher with a fine arts background in photography and installation. She works across fiber disciplines, creating wearable knits, knit and woven tapestries, and embroidered works. She has recently extended her practice into bookmaking and hopes to continue developing that work.</p>
+        <p>Drawing from theories of the archive and an internal archival impulse, her work as an artist finds its inspiration from the same place that made her turn to library work. As a researcher, she investigates textile and craft history, with particular attention to "women's work," natural dyes, and the symbolic life of textiles.</p>
+        <p>Her long-term goal is to become an archivist working with collections centered on artists and craftspeople — bringing together every thread of her training along the way.</p>
+      </div>
+      <div class="about-image-col">
+        <img src="knitsock.jpg" alt="Knit Sock" class="about-image" />
+      </div>
+    </div>
+
+  </div>
+  <script>
+    document.getElementById('hamburger').addEventListener('click', () =>
+      document.getElementById('mobile-menu').classList.toggle('open'));
+    const here = location.pathname.split('/').pop() || 'about.html';
+    document.querySelectorAll('.nav-items > li > a[data-page]').forEach(a => {
+      if (a.getAttribute('href') === here) a.classList.add('active');
+    });
+    if (location.hash) {
+      setTimeout(() => {
+        const el = document.querySelector(location.hash);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 80);
+    }
+  </script>
+</body>
+</html>
