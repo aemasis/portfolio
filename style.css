@@ -177,11 +177,12 @@ html, body {
 /* ── TYPOGRAPHY ── */
 .eyebrow {
   font-family: var(--font-mono);
-  font-size: 0.62rem;
+  font-size: 0.85rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--warm-mid);
   margin-bottom: 0.6rem;
+  font-weight: 500;
 }
 
 h1 {
@@ -195,10 +196,10 @@ h1 {
 
 h2 {
   font-family: var(--font-serif);
-  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+  font-size: 1.1rem;
   font-weight: 300;
   font-style: italic;
-  line-height: 1.15;
+  line-height: 1.8;
   margin-bottom: 1.25rem;
 }
 
